@@ -3,3 +3,5 @@
 3: contact page, etc
 6: finishing touches on gallery
 1: setting up about page
+
+3/2/14: 6hrs explaining with mum how to change, as well as making gallery clickable
