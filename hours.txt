@@ -1,0 +1,5 @@
+2: finding templates
+6: graphics, initial home page layout, gallery prototype
+3: contact page, etc
+6: finishing touches on gallery
+1: setting up about page

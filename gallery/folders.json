@@ -1,0 +1,14 @@
+[
+	{
+		"title": "Recent Work",
+		"folder_name": "recent"
+	},
+	{
+		"title": "For Sale",
+		"folder_name": "sale"
+	},
+	{
+		"title": "Historic Work",
+		"folder_name": "historic"
+	}
+]
