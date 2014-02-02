@@ -2,31 +2,37 @@
 	{
 		"src": "6.jpg",
 		"width": 1000,
-		"height": 750
+		"height": 750,
+		"caption": "This is a caption that you can put text into"
 	},
 	{
 		"src": "7.jpg",
 		"width": 1000,
-		"height": 750
+		"height": 750,
+		"caption": "This is a caption "
 	},
 	{
 		"src": "8.jpg",
 		"width": 1000,
-		"height": 750
+		"height": 750,
+		"caption": "This is a cinto"
 	},
 	{
 		"src": "9.jpg",
 		"width": 1000,
-		"height": 750
+		"height": 750,
+		"caption": "This is a caption that you can put text into"
 	},
 	{
 		"src": "10.jpg",
 		"width": 1000,
-		"height": 750
+		"height": 750,
+		"caption": "This is a caption that you can put text into"
 	},
 	{
 		"src": "11.jpg",
 		"width": 1000,
-		"height": 750
+		"height": 750,
+		"caption": "This is a caption that you can put text into"
 	}
 ]

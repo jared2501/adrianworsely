@@ -68,6 +68,7 @@
 	background-color: rgb(255, 255, 255);
 }
 .photo {
+	display: block;
 	float: left;
 	position: relative;
 	background-position: center;
@@ -76,6 +77,13 @@
 	margin: 2px;
 	padding: 0;
 	cursor: pointer;
+}
+/*
+	Fixes lightbox css clash with bootstrap css
+	See https://github.com/lokesh/lightbox2/issues/69
+*/
+.lb-image{
+	max-width: inherit;
 }
 
 .nav-pills > li > a {
@@ -115,11 +123,11 @@ body,
 
 /* Lastly, apply responsive CSS fixes as necessary */
 @media (max-width: 767px) {
-	#footer {
-		margin-left: -20px;
-		margin-right: -20px;
-		padding-left: 20px;
-		padding-right: 20px;
+	#push,
+	#footer,
+	#wrap {
+		height: auto;
+		margin: 0;
 	}
 }
 
