@@ -164,7 +164,7 @@ var distribute = function(imgs, viewport_width, ideal_height) {
 
 	_.each(imgs, function(img) {
 		var div = '<a data-lightbox="'+img.folder+'" href="'+img.folder+'big/'+img.name+'" title="'+img.caption+
-		'" class="photo" style="background-image: url('+img.src+'); width: '+(img.calculated_dims.width-4)+'px; height: '+img.calculated_dims.height+'px;"></a>';
+		'" class="photo" style="background-image: url('+img.folder+'small/'+img.name+'); width: '+(img.calculated_dims.width-4)+'px; height: '+img.calculated_dims.height+'px;"></a>';
 		html_string += div;
 	});
 

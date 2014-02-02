@@ -1,0 +1,62 @@
+/* Fonts */
+@import url(http://fonts.googleapis.com/css?family=Rock+Salt);
+
+.site-header .navbar-brand {
+	font-family: 'Rock Salt', cursive;
+}
+.lobster {
+	font-family: 'Rock Salt', cursive;
+}
+
+/* -------------- Mums colour and stuff -------------- */
+
+/* Body of the entire website */
+body {
+	color: #555; /* #555 */
+	background-color: white; /* white */
+}
+/* ALWAYs keep this the same colour as the body */
+.section .section-title span {
+	background-color: white; /* white */
+}
+
+/* Site header, generally keep this the same as body above*/
+.site-header {
+	background-color: white; /* white */
+}
+
+
+
+
+/* Non-active tabs */
+.btn-default {
+	background-color: #4b494f; /* #4b494f */
+}
+/* Non-active tab hover colour */
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default {
+	background-color: #37353a; /* #37353a */
+}
+
+/* Active tabs (NB/ You cant change the hover separately because you shouldnt have a hover colour on an active tab) */
+.btn-primary, .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
+	background-color: #51353F; /* #f15f4c */
+}
+
+
+
+/* Active navigation tab in header and also about adrian page */
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover {
+	background-color: #51353F; /* #f15f4c */
+	border: #ccc solid 1px; /* #ccc solid 1px */
+	cursor: default;
+}
+
+/* Non-active navigation tab in header and also about adrian page */
+.nav-pills > li > a {
+	background-color: white; /* white */
+	border: #ccc solid 1px; /* #ccc solid 1px */
+}
+.nav-pills > li > a:hover {
+	background-color: #BA94A2; /* #ddd */
+	border: #8D5A6F solid 1px; /* #ccc solid 1px */
+}

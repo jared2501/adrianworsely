@@ -55,7 +55,6 @@ app.controller('GalleryCtrl', ['$scope', '$rootScope', '$http', function($scope,
 					photo.aspect_ratio = photo.width/photo.height;
 					photo.folder = gallery_folder + '/' + folder + '/';
 					photo.name = photo.src;
-					photo.src = gallery_folder + '/' + folder + '/' + photo.src;
 					console.log(photo.caption);
 					if(angular.isUndefined(photo.caption)) {
 						photo.caption = '';
