@@ -50,6 +50,13 @@
 	font-family: "Lobster";
 }
 
+.cover {
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-size: cover; 
+	padding-bottom: 30px;
+}
+
 @media(max-width:991px) {
 	.first-section {
 		padding: 60px 0;
@@ -68,6 +75,7 @@
 	background-color: rgb(153, 153, 153);
 	margin: 2px;
 	padding: 0;
+	cursor: pointer;
 }
 
 .nav-pills > li > a {

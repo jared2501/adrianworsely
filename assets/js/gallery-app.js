@@ -92,7 +92,6 @@ app.directive('gallery', ['$timeout', function($timeout) {
 			// Also, whenever the photos change we need to recalculate
 			$scope.$watch('photos', function(photos) {
 				recalc(photos);
-				console.log(photos);
 			});
 		}
 	}

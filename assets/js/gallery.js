@@ -163,8 +163,8 @@ var distribute = function(imgs, viewport_width, ideal_height) {
 	var html_string = "";
 
 	_.each(imgs, function(img) {
-		var div = '<div class="photo" style="background-image: url('+img.src+
-			'); width: '+(img.calculated_dims.width-4)+'px; height: '+img.calculated_dims.height+'px;"></div>';
+		var div = '<a class="photo" style="background-image: url('+img.src+
+			'); width: '+(img.calculated_dims.width-4)+'px; height: '+img.calculated_dims.height+'px;"></a>';
 		html_string += div;
 	});
 
