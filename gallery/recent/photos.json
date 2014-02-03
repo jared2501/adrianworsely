@@ -1,57 +1,27 @@
 [
 	{
 		"src": "1.jpg",
-		"width": 800,
-		"height": 874
+		"width": 3072,
+		"height": 2304
 	},
 	{
 		"src": "2.jpg",
-		"width": 800,
-		"height": 534
+		"width": 3072,
+		"height": 2304
 	},
 	{
 		"src": "3.jpg",
-		"width": 800,
-		"height": 534
+		"width": 2304,
+		"height": 3072
 	},
 	{
-		"src": "4.jpg",
-		"width": 800,
-		"height": 534
+		"src": "4a.jpg",
+		"width": 872,
+		"height": 1906
 	},
 	{
 		"src": "5.jpg",
-		"width": 800,
-		"height": 1199
-	},
-	{
-		"src": "6.jpg",
-		"width": 800,
-		"height": 1067
-	},
-	{
-		"src": "7.jpg",
-		"width": 800,
-		"height": 600
-	},
-	{
-		"src": "8.jpg",
-		"width": 800,
-		"height": 1067
-	},
-	{
-		"src": "9.jpg",
-		"width": 800,
-		"height": 1067
-	},
-	{
-		"src": "10.jpg",
-		"width": 800,
-		"height": 1199
-	},
-	{
-		"src": "11.jpg",
-		"width": 800,
-		"height": 534
+		"width": 2151,
+		"height": 1613
 	}
 ]
