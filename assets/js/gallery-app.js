@@ -50,7 +50,6 @@ app.controller('GalleryCtrl', ['$scope', '$rootScope', '$http', function($scope,
 	$rootScope.$watch('activeFolder', function(folder) {
 		if(angular.isDefined(folder)) {
 			$http.get(gallery_folder+'/'+folder+'/photos.json').success(function(photos) {
-				console.log(photos);
 				angular.forEach(photos, function(photo) {
 					photo.aspect_ratio = photo.width/photo.height;
 					photo.folder = gallery_folder + '/' + folder + '/';
