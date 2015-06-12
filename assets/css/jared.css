@@ -1,109 +1,113 @@
 #logo {
-	top: -19px;
-	position: absolute;
-	background-color:rgba(0,0,0,0);
-	z-index: 200;
+    top: -19px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0);
+    z-index: 200;
 }
 
 #navigation {
-	z-index: 300;
-	position: relative;
+    z-index: 300;
+    position: relative;
 }
 
 .site-header {
-	position: relative;
-	z-index: 50;
-	min-height: 70px;
+    position: relative;
+    z-index: 50;
+    min-height: 70px;
 }
-@media(max-width:767px) {
-	.site-header .nav>li>a {
-		margin-right: 3px;
-	}
-	.site-header .nav>li>a {
-		text-align: center;
-		text-indent: 0px;
-		background: #ddd;
-		width: 32px;
-		height: 32px;
-		border-radius: 32px;
-		padding-top: 8px;
-		font-size: 18px;
-	}
+
+@media (max-width: 767px) {
+    .site-header .nav > li > a {
+        margin-right: 3px;
+    }
+
+    .site-header .nav > li > a {
+        text-align: center;
+        text-indent: 0px;
+        background: #ddd;
+        width: 32px;
+        height: 32px;
+        border-radius: 32px;
+        padding-top: 8px;
+        font-size: 18px;
+    }
 }
 
 .site-main {
-	margin-top: 0px;
-	position: relative;
+    margin-top: 0px;
+    position: relative;
 }
 
 .chain {
-	z-index: 100;
-	height: 80px;
-	background: url(../../images/chain.png);
-	width: 100%;
-	position: absolute;
-	bottom: 0px;
-	margin-bottom: -40px;
+    z-index: 100;
+    height: 60px;
+    background: url(../../images/chain.png);
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    margin-bottom: -30px;
 }
 
 .lobster {
-	font-family: "Lobster";
+    font-family: "Lobster";
 }
 
 .cover {
-	background-repeat: no-repeat;
-	background-position: center bottom;
-	background-size: cover; 
-	padding-bottom: 30px;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    padding-bottom: 30px;
 }
 
-@media(max-width:991px) {
-	.first-section {
-		padding: 60px 0;
-	}
+@media (max-width: 991px) {
+    .first-section {
+        padding: 60px 0;
+    }
 }
 
 #gallery-container {
-	padding: 2px;
+    padding: 2px;
 }
+
 .photo {
-	display: block;
-	float: left;
-	position: relative;
-	background-position: center;
-	background-size: 100% 100%;
-	background-color: rgb(153, 153, 153);
-	margin: 2px;
-	padding: 0;
-	cursor: pointer;
+    display: block;
+    float: left;
+    position: relative;
+    background-position: center;
+    background-size: 100% 100%;
+    background-color: rgb(153, 153, 153);
+    margin: 2px;
+    padding: 0;
+    cursor: pointer;
 }
+
 /*
 	Fixes lightbox css clash with bootstrap css
 	See https://github.com/lokesh/lightbox2/issues/69
 */
-.lb-image{
-	max-width: inherit;
+.lb-image {
+    max-width: inherit;
 }
 
 /* Contact page */
 #map {
-	width: 100%;
-	height: 330px;
+    width: 100%;
+    height: 330px;
 }
 
 /* Active tabs */
 .btn-primary, .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
-	cursor: default;
+    cursor: default;
 }
 
 .section-slide .item {
-	padding: 30px 0;
+    padding: 30px 0;
 }
 
 @media (max-width: 767px) {
-	.navbar-brand > a{
-		font-size: 80%;
-	}
+    .navbar-brand > a {
+        font-size: 80%;
+    }
 }
 
 /* Sticky footer styles
@@ -112,31 +116,31 @@
 html,
 body,
 #page {
-	height: 100%;
-	/* The html and body elements cannot have any padding or margin. */
+    height: 100%;
+    /* The html and body elements cannot have any padding or margin. */
 }
 
 /* Wrapper for page content to push down footer */
 #wrap {
-	min-height: 100%;
-	height: auto !important;
-	height: 100%;
-	/* Negative indent footer by it's height */
-	margin: 0 auto -273px;
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    /* Negative indent footer by it's height */
+    margin: 0 auto -273px;
 }
 
 /* Set the fixed height of the footer here */
 #push,
 #footer {
-	height: 273px;
+    height: 273px;
 }
 
 /* Lastly, apply responsive CSS fixes as necessary */
 @media (max-width: 767px) {
-	#push,
-	#footer,
-	#wrap {
-		height: auto;
-		margin: 0;
-	}
+    #push,
+    #footer,
+    #wrap {
+        height: auto;
+        margin: 0;
+    }
 }

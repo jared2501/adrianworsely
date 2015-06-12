@@ -1,10 +1,6 @@
 [
-	{
-		"title": "Recent Work",
-		"folder_name": "recent"
-	},
-	{
-		"title": "For Sale",
-		"folder_name": "sale"
-	}
+  {
+    "title": "Sculptures",
+    "folder_name": "sculptures"
+  }
 ]
