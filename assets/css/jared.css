@@ -113,6 +113,14 @@
 /* Sticky footer styles
 -------------------------------------------------- */
 
+.site-footer h5.widget-title {
+    margin-bottom: 5px;
+}
+
+.site-footer .widget {
+    margin-bottom: 30px;
+}
+
 html,
 body,
 #page {
